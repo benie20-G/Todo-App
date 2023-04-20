@@ -18,7 +18,7 @@ addBtn.addEventListener('click',()=>{
         <hr>
         <p>${input.value}</p>
      <div class="item-btn">
-      <button class="complete">complete</button>
+      <button class="complete">completed</button>
       <button class="remove">remove</buttton>
 </div>`
 newItem.setAttribute("class","taskTodo")

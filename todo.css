@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+header{
+    color:blueviolet;
+    font-weight: 700;
+    font-size:2em ;
+    text-align: center;
+    padding-bottom: 1.5em;
+    margin: auto;
+
+    text-transform: uppercase;
+}
+.list-head{
+    position: absolute;
+    top: 70px;
+    left: 35%;
+    align-items: center;
+}
+.active{
+    background-color: rgb(158, 203, 158);
+}
+.entered-list{
+ padding: 8px;
+width: 20em;
+border-style: none;
+border-radius: 4px;
+background-color: rgb(159, 167, 150);
+height: 1%;
+}
+.add-list{
+    padding: 12px;
+    width: 9em;
+    background-color: rgb(84, 110, 40);
+    border: none;
+    border-radius:5px; ;
+}
+
+.todo-list{
+    position: absolute;
+    top: 120px;
+    padding: 15px;
+    width: 100%;
+justify-content: center;
+overflow-y: scroll;
+
+}
+.completed{
+    height: 2em;
+    padding: 0.5em;
+   font-size: 20px;
+    margin-top: 12px;
+    color: red;
+}
+.completed>p{
+text-decoration: line-through;
+columns: black;
+}
+.taskTodo>p::first-letter,.completed>p::first-letter{
+    text-transform: capitalize;
+}
+.taskTodo{
+    color: rgb(7, 7, 7);
+  height: 2em;
+  padding: 0.5em;
+ font-size: 20px;
+  margin-top: 12px;
+ 
+
+}
+hr{
+    margin-bottom: 15px;
+    background-color: green;
+}
+
+.item-btn{
+display: block;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+ 
+
+} 
+.item-btn>button{
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(112, 151, 112);
+}
+.item-btn,p{
+    float: left;
+}
+.item{
+    display: flex;
+   
+    box-shadow: 2px 4px 2px black;
+    width: 50%;
+ 
+}
+.tasks{
+    display: block;
+    width: 100%;
+}
